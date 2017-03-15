@@ -12,7 +12,7 @@ Soloud_setGlobalVolume(sl, 1)
 
 
 var stream = WavStream_create()
-discard WavStream_load(cast[ptr Wav](stream), "examples/test.ogg")
+discard WavStream_load(cast[ptr Wav](stream), "test.ogg")
 
 let currentTime = epochTime()
 let length = WavStream_getLength(stream)
