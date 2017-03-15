@@ -1,4 +1,4 @@
-import soloud_nim, times, os
+import solouddotnim, times, os
 
 var i, spin = 0
 
