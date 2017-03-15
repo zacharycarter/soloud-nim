@@ -1,4 +1,4 @@
-import ../soloud-nim/soloud, times, os
+import soloud_nim, times, os
 
 var i, spin = 0
 
